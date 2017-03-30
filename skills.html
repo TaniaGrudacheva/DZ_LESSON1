@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Урок 3.1. Таблица навыков</title>
+        <style> 
+            td{
+                padding: 5px;
+                spacing: 1px;
+            }
+        </style>    
+        <style> 
+            table, td, th{ 
+                border: 1px solid gray 
+            } 
+        </style>    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Главная</a> |            
+            <a href="index.html#education">Образование</a> |
+            <a href="index.html#experience">Опыт работы</a> |
+            <a href="article.html">Статья</a> |
+            <a href="gallery.html">Фотогалерея</a> |
+            <a href="skills.html">Навыки</a>
+            <a href="about.html">О себе</a>
+        </nav>
+        <hr>
+        <header>
+            <h1>Пример таблицы навыков</h1>
+        </header>
+            <table>
+                <caption>Таблица навыков</caption>
+                <tr>
+                    <th>N</th>
+                    <th>Наименование</th>
+                    <th>Время</th>
+                    <th>Результат</th>
+                    <th colspan="2">Еще одна</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>HTML</td>
+                    <td rowspan="4">1 месяц</td>
+                    <td>Успех</td> 
+                    <td colspan="2">Общий сбор</td> 
+                </tr>
+                <tr>
+                    <td>2</td>                    
+                    <td>CSS</td>
+                    <td>2 месяц</td> 
+                    <td>Успех</td> 
+                    <td>Еще одна</td> 
+                </tr>            
+                <tr>
+                    <td>3</td>                    
+                    <td>Java Script</td>
+                    <td>3 месяц</td> 
+                    <td>Провал</td> 
+                    <td>Еще одна</td> 
+                </tr>            
+                <tr>
+                    <td>4</td>                    
+                    <td>PHP</td>
+                    <td>2 месяц</td> 
+                    <td>Провал</td> 
+                    <td>Еще одна</td> 
+                </tr>            
+
+            </table>
+        <footer>
+            <hr>
+            <nav>
+                <a href="#education">Образование</a> |
+                <a href="#experience">Опыт работы</a> |
+                <a href="article.html">Статья</a> |
+                <a href="gallery.html">Фотогалерея</a> |
+                <a href="skills.html">Навыки</a> |
+                <a href="about.hrml">О себе</a> |
+            </nav>
+            <p>&copy; Сайт Татьяны Грудачевой 2017</p>
+        </footer>
+    </body>
+</html>
